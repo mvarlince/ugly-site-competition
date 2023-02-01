@@ -1,0 +1,72 @@
+
+*{
+    size: 10in 10in;
+    margin-top: 1in;
+  }
+
+body {
+    background-image: url(./pictures/colors.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+.lorem{
+    text-orientation:upright;
+}
+
+.main{
+    background-color: deeppink;
+    width: 100%;
+    border: 5px solid cyan ;
+
+
+}
+
+section > section{
+    background-image:-moz-linear-gradient();
+}
+
+
+section > section{
+    background-color: aqua;
+    width: 100%;
+    border: 5px solid cyan ;
+
+}
+
+section > section > h1{
+    text-align: right;
+    position: relative;
+}
+
+section > img{
+    background-image: image();
+}
+
+section > h1{
+    text-shadow: 0ex;
+    color: whitesmoke;
+    text-align: right;
+    text-decoration: double;
+}
+.alt{
+        position: relative;
+        text-align: center;
+        color: white;
+}
+
+header > h1{
+    background-color: aqua;
+}
+
+flip{
+    font-size: 50;
+}
+
+img:hover{
+    filter:blur(5px);
+    filter: invert(50%); 
+    background-size: cover;
+   transform: rotate(360deg);
+   transition: transform 1s ease-out;
+}
